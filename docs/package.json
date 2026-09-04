@@ -1,7 +1,7 @@
 {
   "name": "cuflash-docs",
   "private": true,
-  "version": "0.5.1",
+  "version": "0.6.0",
   "type": "module",
   "description": "Academic-grade documentation for cuflash",
   "scripts": {

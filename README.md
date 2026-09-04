@@ -230,7 +230,7 @@ FlashAttention 通过分块与在线 softmax 避免物化完整注意力矩阵�
 
 **指标口径**：FlashAttention kernel 用 **CUDA Event 计时**（排除 host 开销）；
 带宽指标为**模型化 logical HBM**（前向：Q/O 各一次 + K/V 按 Q block 重载，见
-[algorithm](../docs/algorithm.md)），并非 ncu 实测的物理带宽。请勿把 `LogicalHBM GB/s`
+[algorithm](docs/algorithm.md)），并非 ncu 实测的物理带宽。请勿把 `LogicalHBM GB/s`
 当作硬件实测 HBM 带宽。
 
 ### 运行基准测试
