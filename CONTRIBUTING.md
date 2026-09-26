@@ -52,3 +52,6 @@ Before opening a PR, confirm:
 1. The build/test commands still make sense for the current environment.
 2. Documentation and workflow files describe what the repository actually does today.
 3. No deleted or deprecated process files are still linked from README, docs, or workflows.
+4. Non-trivial changes (behavior, architecture, cross-file contracts, process/tooling,
+   testing strategy) carry an Agent Note under `.agents/notes/` (see `AGENTS.md`);
+   `npm run verify-notes` is green.
