@@ -18,7 +18,7 @@
 
 cuflash 是一个**从零手写的 CUDA FlashAttention 深度实现**：从正确起步，经标量内核 → WMMA Tensor Core 前向的优化迭代，形成有数据支撑的性能叙事（教学可读性为底色，内核深度为作品定位，见 [ROADMAP](ROADMAP.md)）。
 
-在五仓学习路径中，本仓库负责 CUDA C++ FlashAttention 前向/反向的专项深挖；CUDA 基础、Triton 实现、完整推理运行时和 Serving 控制面分别由其他主仓承担。整体顺序见 [`LEARNING_PATH.md`](https://github.com/open-infra-ai/open-infra-ai/blob/master/LEARNING_PATH.md)（meta 仓）。
+在 GPU 学习主线（五主仓）中，本仓库负责 CUDA C++ FlashAttention 前向/反向的专项深挖；CUDA 基础、Triton 实现、完整推理运行时和 Serving 控制面分别由其他主仓承担。整体顺序见 [`LEARNING_PATH.md`](https://github.com/open-infra-ai/open-infra-ai/blob/master/LEARNING_PATH.md)（meta 仓）。
 
 ### 项目状态
 
